@@ -86,6 +86,7 @@ public class Console {
         return i;
     }
     
+    // validate entries in front end
     public static int getIntWithinRange(Scanner sc, String prompt,
             int min, int max) {
         int i = 0;
